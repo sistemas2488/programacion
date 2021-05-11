@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="exe_effects.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Expresiones lógicas | Programación de computadores </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Bryan Fernandez" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.5 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="exe_effects.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+	</head>
+<body class="exe-web-site" id="exe-node-14"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Programación de computadores</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Unidad 1</a></li>
+   <li><a href="diagnstico.html" class="no-ch">Diagnóstico</a></li>
+   <li><a href="introduccin.html" class="no-ch">Introducción</a></li>
+   <li><a href="algortimos.html" class="daddy">Algortimos</a>
+   <ul class="other-section">
+      <li><a href="problema.html" class="no-ch">Problema</a></li>
+      <li><a href="etapas_de_un_problema.html" class="no-ch">Etapas de un problema</a></li>
+      <li><a href="ejemplos.html" class="no-ch">Ejemplos</a></li>
+      <li><a href="representacin_y_estructura.html" class="no-ch">Representación y estructura</a></li>
+      <li><a href="resumen.html" class="no-ch">Resumen</a></li>
+      <li><a href="autoevaluacin.html" class="no-ch">Autoevaluación</a></li>
+   </ul>
+   </li>
+   <li class="current-page-parent"><a href="expresiones_y_variables.html" class="current-page-parent daddy">Expresiones y variables</a>
+   <ul>
+      <li><a href="datos.html" class="no-ch">Datos</a></li>
+      <li><a href="variables.html" class="no-ch">Variables</a></li>
+      <li><a href="expresiones_matemticas.html" class="no-ch">Expresiones matemáticas</a></li>
+      <li><a href="expresiones_relacionales.html" class="no-ch">Expresiones relacionales</a></li>
+      <li id="active"><a href="expresiones_lgicas.html" class="active no-ch">Expresiones lógicas</a></li>
+      <li><a href="resumen0.html" class="no-ch">Resumen</a></li>
+      <li><a href="autoevaluacin0.html" class="no-ch">Autoevaluación</a></li>
+   </ul>
+   </li>
+   <li><a href="algoritmos_secuenciales.html" class="daddy">Algoritmos secuenciales</a>
+   <ul class="other-section">
+      <li><a href="concepto.html" class="no-ch">Concepto</a></li>
+      <li><a href="estructura_secuencial.html" class="no-ch">Estructura secuencial</a></li>
+      <li><a href="ejemplos_de_asignacion.html" class="no-ch">Ejemplos de asignacion</a></li>
+      <li><a href="ejemplo_soluciones_algoritmicas.html" class="no-ch">Ejemplo soluciones algoritmicas</a></li>
+      <li><a href="resumen1.html" class="no-ch">Resumen</a></li>
+      <li><a href="autoevaluacin1.html" class="no-ch">Autoevaluación</a></li>
+   </ul>
+   </li>
+   <li><a href="actividades.html" class="daddy">Actividades</a>
+   <ul class="other-section">
+      <li><a href="actividad_1.html" class="no-ch">Actividad 1</a></li>
+      <li><a href="actividad_2.html" class="no-ch">Actividad 2</a></li>
+      <li><a href="actividad_3.html" class="no-ch">Actividad 3</a></li>
+      <li><a href="actividad_4.html" class="no-ch">Actividad 4</a></li>
+   </ul>
+   </li>
+   <li><a href="propuestas.html" class="no-ch">Propuestas</a></li>
+   <li><a href="bibliografia.html" class="no-ch">Bibliografia</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="expresiones_relacionales.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="resumen0.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Expresiones lógicas</h1></header>
+<article class="iDevice_wrapper textIdevice" id="id42">
+<div class="iDevice emphasis0" >
+<div id="ta42_113_2" class="block iDevice_content">
+<div class="exe-text"><div class="exe-fx exe-tabs">
+<h2>Concepto</h2>
+<p>Son todas las operaciones que permiten interconectar verificaciones, son los siguientes: Y (and), O (or) y No (not) </p>
+<p>Las operaciones unidas por un operador lógico <strong>Y</strong> (<strong>and</strong>) serán verdaderas solo si todas ellas son verdaderas, de lo contrario será falsa.</p>
+<p>Las operaciones unidas por un operador lógico <strong>O</strong> (<strong>Or</strong>) serán falsas solo si todas son falsas, de lo contrario será verdadera.</p>
+<p>La operación precedida por el operador lógico <strong>NO</strong> (<strong>Not</strong>) si la operación es verdadera esta se convertirá en falsa al tener el operador No precedida y si es falsa se convertirá en verdadera.</p>
+<h2>Ejemplos operador Y</h2>
+<p>Las operaciones unidas por un operador lógico <strong>Y</strong> (<strong>and</strong>) serán verdaderas solo si todas ellas son verdaderas, de lo contrario será falsa.</p>
+<p><strong>Ejemplo</strong></p>
+<p>Evaluando la expresión:</p>
+<p><img src="img0.5.png" width="197" height="91" alt="ejemplo 1 operadores logicos" /></p>
+<p>Según la definición es falso porque una de ellas es falsa.</p>
+<h2>Ejemplos operador O</h2>
+<p>Las operaciones unidas por un operador lógico <strong>O</strong> (<strong>Or</strong>) serán falsas solo si todas son falsas, de lo contrario será verdadera.</p>
+<p><strong>Ejemplo</strong></p>
+<p>Evaluando la expresión:</p>
+<p><img src="img1.3.png" width="175" height="92" alt="ejemplo 2 operadors logicos" /></p>
+<p>Según la definición es Verdadero porque una de ellas es Verdadera.</p>
+<h2>Ejemplos operador NO</h2>
+<p>La operación precedida por el operador lógico <strong>NO</strong> (<strong>Not</strong>) si la operación es verdadera esta se convertirá en falsa al tener el operador No precedida y si es falsa se convertirá en verdadera.</p>
+<p><strong>Ejemplo</strong></p>
+<p>Evaluando la expresión:</p>
+<p><img src="img2.2.png" width="154" height="105" alt="ejemplo 3 operaores relacionales" /></p>
+<p>Según la definición es Falso porque la condición es Verdadera, y al negarla, queda Falsa</p>
+<h2>Ejemplo de Operadores Lógicos Y, O, No</h2>
+<p>Teniendo en cuenta la prioridad de los operadores relacionales se tiene:</p>
+<p>Sea: a = 10   b = 12   c = 13    d =10</p>
+<p>1. ((a&gt;b) or (a&lt;c)) and ((a=c) or (a&gt;=b))</p>
+<p><u>Solución:</u></p>
+<p><u><img src="img3.1.png" width="274" height="129" alt="ejemplo4 operadores logicos" /></u></p>
+<p>2. ((a&gt;=b or (a&lt;d)) and (a&gt;=d) and (c&gt;d))</p>
+<p><u>Solución:</u></p>
+<p><u><img src="img4.1.png" width="307" height="140" alt="ejemplo 5 operadores relacionales" /></u></p>
+<p><u>3. </u><span style="color: #3a4749; font-size: 1.05em;">not (a=c) and (c&gt;b)</span></p>
+<p><u>Solución:</u></p>
+<ol></ol>
+<p><img src="img5.1.png" width="164" height="143" alt="ejemplo 6 operadores relacionales" /></p>
+</div>
+<p></p></div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="expresiones_relacionales.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="resumen0.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_cedec_js.js"></script></body></html>

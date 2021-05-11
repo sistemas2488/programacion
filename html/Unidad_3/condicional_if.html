@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="exe_effects.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Condicional if | Programación de computadores </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Bryan Fernandez E" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.5 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="exe_effects.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+	</head>
+<body class="exe-web-site" id="exe-node-21"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Programación de computadores</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Inicio</a></li>
+   <li><a href="introduccin_a_java.html" class="daddy">Introducción a Java</a>
+   <ul class="other-section">
+      <li><a href="lenguajes_de_programacin.html" class="no-ch">Lenguajes de programación</a></li>
+      <li><a href="que_es_java.html" class="no-ch">¿Que es Java?</a></li>
+      <li><a href="caracteristicas.html" class="no-ch">Caracteristicas</a></li>
+      <li><a href="jdk.html" class="no-ch">JDK</a></li>
+      <li><a href="compilador.html" class="no-ch">Compilador</a></li>
+      <li><a href="entorno_de_desarrolloide.html" class="no-ch">Entorno de desarrollo(IDE)</a></li>
+      <li><a href="autoevaluacin.html" class="no-ch">Autoevaluación</a></li>
+   </ul>
+   </li>
+   <li><a href="conceptos_bsicos.html" class="daddy">Conceptos básicos</a>
+   <ul class="other-section">
+      <li><a href="tipo_de_datos.html" class="no-ch">Tipo de datos</a></li>
+      <li><a href="operadores.html" class="no-ch">Operadores</a></li>
+      <li><a href="proyecto_en_java.html" class="no-ch">Proyecto en Java</a></li>
+      <li><a href="que_es_un_objeto_en_java.html" class="no-ch">¿Que es un objeto en Java?</a></li>
+      <li><a href="estructura_de_un_proyecto.html" class="no-ch">Estructura de un proyecto</a></li>
+      <li><a href="entrada_y_salida_de_datos.html" class="no-ch">Entrada y salida de datos</a></li>
+      <li><a href="ejemplo_de_codificacin.html" class="no-ch">Ejemplo de codificación</a></li>
+      <li><a href="autoevaluacin0.html" class="no-ch">Autoevaluación</a></li>
+   </ul>
+   </li>
+   <li class="current-page-parent"><a href="condicionales_y_selectivas.html" class="current-page-parent daddy">Condicionales y selectivas</a>
+   <ul>
+      <li id="active"><a href="condicional_if.html" class="active no-ch">Condicional if</a></li>
+      <li><a href="switch_y_break.html" class="no-ch">Switch y break</a></li>
+      <li><a href="ejemplo_condicional_if.html" class="no-ch">Ejemplo condicional if</a></li>
+      <li><a href="ejemplo_swicth_break.html" class="no-ch">Ejemplo Swicth break</a></li>
+      <li><a href="autoevaluacin1.html" class="no-ch">Autoevaluación</a></li>
+   </ul>
+   </li>
+   <li><a href="actividades.html" class="daddy">Actividades</a>
+   <ul class="other-section">
+      <li><a href="actividad_1.html" class="no-ch">Actividad 1</a></li>
+      <li><a href="actividad_2.html" class="no-ch">Actividad 2</a></li>
+      <li><a href="actividad_3.html" class="no-ch">Actividad 3</a></li>
+   </ul>
+   </li>
+   <li><a href="propuestas.html" class="no-ch">Propuestas</a></li>
+   <li><a href="bibliografia.html" class="no-ch">Bibliografia</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="condicionales_y_selectivas.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="switch_y_break.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Condicional if</h1></header>
+<article class="iDevice_wrapper textIdevice" id="id18">
+<div class="iDevice emphasis0" >
+<div id="ta18_126_2" class="block iDevice_content">
+<div class="exe-text"><p><span>La estructura </span>if <span>se denomina estructura de selección única porque ejecuta un bloque de sentencias solo cuando se cumple la condición del </span>if<span>. Si la condición es verdadera se ejecuta el bloque de sentencias. Si la condición es falsa, el flujo del programa continúa en la sentencia inmediatamente posterior al </span>if<span>.</span></p>
+<div class="exe-fx exe-tabs">
+<h2>Estructura if simple</h2>
+<table border="1" style="width: 100%; height: 184px;">
+<tbody>
+<tr style="height: 163px;">
+<td style="width: 50%; height: 163px;"><img src="img0.5.png" width="389" height="119" alt="si simple" style="display: block; margin-left: auto; margin-right: auto;" /></td>
+<td style="width: 50%; height: 163px;"><img src="img1.3.png" width="227" height="157" alt="if simple java" style="display: block; margin-left: auto; margin-right: auto;" /></td>
+</tr>
+<tr style="height: 21px;">
+<td style="width: 50%; text-align: center; height: 21px;"><strong>Pseudocodigo</strong></td>
+<td style="width: 50%; height: 21px; text-align: center;"><strong>Java</strong></td>
+</tr>
+</tbody>
+</table>
+<h2>Estructura if doble</h2>
+<table border="1" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%;"><img src="img2.1.png" width="409" height="177" alt="sidoble pseint" style="display: block; margin-left: auto; margin-right: auto;" /></td>
+<td style="width: 50%;"><img src="img3.1.png" width="253" height="233" alt="if doble java" style="display: block; margin-left: auto; margin-right: auto;" /></td>
+</tr>
+<tr>
+<td style="width: 50%; text-align: center;"><strong>Pseudocodigo</strong></td>
+<td style="width: 50%; text-align: center;"><strong>Java</strong></td>
+</tr>
+</tbody>
+</table>
+<h2>Estructura if anidado</h2>
+<table border="1" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%;"><img src="img4.1.png" width="479" height="498" alt="si anidad" /></td>
+<td style="width: 50%;"><img src="img5.1.png" width="286" height="453" alt="if anidado" style="display: block; margin-left: auto; margin-right: auto;" /></td>
+</tr>
+<tr>
+<td style="width: 50%; text-align: center;"><strong>Pseudocodigo</strong></td>
+<td style="width: 50%; text-align: center;"><strong>Java</strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p></div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="condicionales_y_selectivas.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="switch_y_break.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_cedec_js.js"></script></body></html>
