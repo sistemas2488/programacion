@@ -2,6 +2,7 @@
 <html lang="es">
 <head>
 <link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="exe_effects.css" />
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
@@ -9,38 +10,39 @@
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta name="author" content="Bryan Fernandez Ebrath" />
 <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
-<meta name="generator" content="eXeLearning 2.5 - exelearning.net" />
+<meta name="generator" content="eXeLearning 2.6 - exelearning.net" />
 <!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
 <script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="exe_effects.js"></script>
 <script type="text/javascript" src="common_i18n.js"></script>
 <script type="text/javascript" src="common.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-	</head>
-<body class="exe-web-site" id="exe-node-17"><script type="text/javascript">document.body.className+=" js"</script>
+    </head>
+<body class="exe-web-site" id="exe-node-24"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
 <header id="header" ><div id="headerContent">Programación de computadores</div></header>
 <nav id="siteNav">
 <ul>
    <li><a href="index.html" class="daddy main-node">Unidad 4</a></li>
-   <li><a href="introduccin_a_joptionpane.html" class="no-ch">Introducción a JOptionPane</a></li>
-   <li class="current-page-parent"><a href="introduccin_a_estructutras_repetitivos.html" class="current-page-parent daddy">Introducción a estructutras repetitivos</a>
-   <ul>
-      <li id="active"><a href="conceptos.html" class="active no-ch">Conceptos</a></li>
-      <li><a href="ciclo_para_o_for.html" class="no-ch">Ciclo Para o For</a></li>
-      <li><a href="ejemplo_ciclo_para__o__for.html" class="no-ch">Ejemplo ciclo Para  o  For</a></li>
-      <li><a href="ciclo_mientras_o_while.html" class="no-ch">Ciclo Mientras o While</a></li>
-      <li><a href="ejemplo_ciclo_mientras__o__while.html" class="no-ch">Ejemplo ciclo Mientras  o  While</a></li>
-      <li><a href="ciclo_repetir_o_do_while.html" class="no-ch">Ciclo Repetir o Do While</a></li>
-      <li><a href="ejemplo_ciclo_repetir__do_while.html" class="no-ch">Ejemplo ciclo Repetir  Do While</a></li>
-      <li><a href="autoevaluacin.html" class="no-ch">Autoevaluación</a></li>
+   <li><a href="arreglos.html" class="daddy">Arreglos</a>
+   <ul class="other-section">
+      <li><a href="vectores.html" class="no-ch">Vectores</a></li>
+      <li><a href="matrices.html" class="no-ch">Matrices</a></li>
+      <li><a href="ejemplos.html" class="no-ch">Ejemplos</a></li>
    </ul>
    </li>
-   <li><a href="actividades.html" class="daddy">Actividades</a>
+   <li class="current-page-parent"><a href="subrutinas.html" class="current-page-parent daddy">Subrutinas</a>
+   <ul>
+      <li id="active"><a href="conceptos.html" class="active no-ch">Conceptos</a></li>
+      <li><a href="ejemplo.html" class="no-ch">Ejemplo</a></li>
+   </ul>
+   </li>
+   <li><a href="actividades.html" class="no-ch">Actividades</a></li>
+   <li><a href="practica_de_programacin.html" class="daddy">Practica de programación</a>
    <ul class="other-section">
-      <li><a href="actividad_1.html" class="no-ch">Actividad 1</a></li>
-      <li><a href="actividad_2.html" class="no-ch">Actividad 2</a></li>
-      <li><a href="actividad_3.html" class="no-ch">Actividad 3</a></li>
+      <li><a href="java.html" class="no-ch">Java</a></li>
+      <li><a href="python.html" class="no-ch">Python</a></li>
    </ul>
    </li>
    <li><a href="propuestas.html" class="no-ch">Propuestas</a></li>
@@ -49,33 +51,24 @@
 </nav>
 <div id='topPagination'>
 <nav class="pagination noprt">
-<a href="introduccin_a_estructutras_repetitivos.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="ciclo_para_o_for.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="subrutinas.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="ejemplo.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </nav>
 </div>
 <div id="main-wrapper">
 <section id="main">
 <header id="nodeDecoration"><h1 id="nodeTitle">Conceptos</h1></header>
-<article class="iDevice_wrapper textIdevice" id="id24">
+<article class="iDevice_wrapper textIdevice" id="id34">
 <div class="iDevice emphasis0" >
-<div id="ta24_108_2" class="block iDevice_content">
-<div class="exe-text"><p><strong>Concepto</strong></p>
-<p>Las estructuras repetitivas permiten repetir los procesos un gran número de veces  según sea el caso. Estas estructuras son utilizadas en procesos donde se requiere realizar las mismas operaciones una gran cantidad de veces.  </p>
-<p>Las estructuras de repetición permiten la ejecución repetida de una lista o secuencia de instrucciones (también llamada bloque de instrucciones). El número de veces que el bloque de instrucciones se ejecutará se puede especificar de manera explícita o a través de una condición que indica cuando se ejecuta de nuevo o cuando no. A cada ejecución el bloque de instrucciones se le conoce como una<span> </span><b>iteración. </b>Dentro de los ciclos se utilizan contadores y acumuladores, que regulan que el ciclo llegue a su fin.</p>
-<p><span><strong>Contador</strong>: Es la variable que se encarga de enumerar los objetos que pertenecen a un conjunto de acuerdo a una condición. </span><span>Es un tipo de variable que incrementa o decrementa su valor en un valor constante.  </span>Cuando decimos incrementa estamos sumando.</p>
-<p><strong>Ejemplo</strong>:</p>
-<p>Veces = Veces + 1</p>
-<p>Como se puede observar a la variable veces se le está incrementando un valor constante (1); es decir a su contenido le sumas el valor y se vuelve a guardar en la misma variable.</p>
-<p><span><br /><strong>Acumulador</strong>: Es la variable encargada de adicionar los valores que se requieren totalizar según sea el caso. Es una variable que incrementa o decrementa su contenido en cantidades variables. </span></p>
-<p><span><strong>Ejemplo</strong>:</span></p>
-<p><span>Nomina = Nomina + sueldo</span></p>
-<p><strong>Estructuras repetitivas a base de un contador</strong></p>
-<p>Este tipo de estructuras repetitivas se caracteriza por:</p>
-<ul>
-<li>Conoce exactamente el número de veces que se repite el proceso.</li>
-<li>Utiliza el contador, el cual enumera la cantidad de veces que se repite el proceso, controlando el inicio y la finalización de las repeticiones.</li>
-<li>Este contador debe ser de tipo entero.</li>
-<li>Las operaciones que se repiten son las que son comunes para los objetos a los cuales se les realizará dichas operaciones.</li>
-</ul></div>
+<div id="ta34_118_2" class="block iDevice_content">
+<div class="exe-text"><div class="exe-fx exe-tabs">
+<h2>Concepto</h2>
+<p>Una subrutina es un procedimiento que ejecuta cierta acción y obtiene un resultado. Las subrutinas pueden o no recibir parametros para su ejecución y no devuelven un resultado.</p>
+<p>La sintáxis para escribir una subrutina es la siguiente:</p>
+<p><img src="img0.2.png" width="730" height="111" alt="funcion" /></p>
+<h2>Ejemplo básico</h2>
+<p><img src="img1.2.png" width="528" height="299" alt="funciones 2" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+</div>
+<p></p></div>
 </div>
 </div>
 </article>
@@ -86,8 +79,8 @@
 </div>
 <div id='bottomPagination'>
 <nav class="pagination noprt">
-<a href="introduccin_a_estructutras_repetitivos.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="ciclo_para_o_for.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="subrutinas.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="ejemplo.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </nav>
 </div>
 </div>
-<script type="text/javascript" src="_cedec_js.js"></script></body></html>
+<script type="text/javascript" src="_style_js.js"></script></body></html>
